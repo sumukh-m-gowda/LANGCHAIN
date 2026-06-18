@@ -2,6 +2,7 @@ from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from dotenv import load_dotenv
 import os
 import numpy as np 
+#important
 from sklearn.metrics.pairwise import cosine_similarity
 
 load_dotenv() 
