@@ -1,5 +1,9 @@
 # task - asking llm to generate detailed report on some topic and then to summarize the same report
 
+# Without StrOutputParser (manual, verbose)
+
+
+
 from dotenv import load_dotenv
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import PromptTemplate
