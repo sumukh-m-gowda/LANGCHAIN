@@ -81,7 +81,7 @@ history_prompt = ChatPromptTemplate([
     ("system", "You are a helpful assistant."),
     MessagesPlaceholder(variable_name="chat_history"),
     ("human", "{question}")
-])
+]) 
 
 chat_history = [
     HumanMessage(content="My name is Rahul"),
